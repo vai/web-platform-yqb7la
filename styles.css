@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #222;
+}
+.mainParent {
+  height: 90%;
+  width: 80%;
+  background: rgba(222, 222, 222, 0.10);
+  color: #ddd;
+  overflow-y: scroll;
+  border:4px solid #ddd;
+}
+.mainParent{margin:0.5em}
+.header {
+  position: sticky;
+  padding: 0.5em;
+  background: #ddd;
+  color: #222;
+  text-align: center;
+}
+#header01 {
+  top: 0;
+}
+#header02 {
+  top: 2em;
+}
+#header03 {
+  top: 4em;
+}
+#header04 {
+  top: 6em;
+}
+#header05 {
+  top: 8em;
+}
+#header06 {
+  top: 10em;
+}
+.content{text-align:center}
